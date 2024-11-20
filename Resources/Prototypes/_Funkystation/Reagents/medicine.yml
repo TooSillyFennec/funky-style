@@ -323,7 +323,7 @@
   desc: A Commonly sold medicine for all types of injuries, but extremely slow acting.
   physicalDesc: reagent-physical-desc-gloopy
   flavor: medicine
-  color: "#00e5ff"
+  color: "#c7e4e8"
   metabolisms:
     Medicine:
       metabolismRate: 0.05
