@@ -207,7 +207,7 @@
 - type: polymorph
   id: CorgiMorph
   configuration:
-    entity: MobCarpMagic
+    entity: MobCorgi
     forced: true
     inventory: None
     transferName: true
