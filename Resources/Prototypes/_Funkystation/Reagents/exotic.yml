@@ -1,0 +1,136 @@
+- type: reagent
+  id: ExoticReagent # The base chem for the top-level chem tree, + other reactions.
+  name: Exotic Reagent
+  group: Special
+  desc: You've never even heard of it before, unless you are a chemist. Then, it's secrets are in your hands, and it's time to use the true power of chemistry.
+  physicalDesc: reagent-physical-desc-exotic-smelling
+  flavor: nothing
+  color: "#d111fc"
+
+- type: reagent
+  id: Stasicillin
+  name: Stasicillin
+  group: Medicine
+  desc: A very rare chemical used by both top-level medbays and nanotrasen secret agents for both the effective injury treatment and it's side effect, sending the consumer to sleep.
+  physicalDesc: reagent-physical-desc-crystalline
+  flavor: medicine
+  color: "#5c11fc"
+  metabolisms:
+    Medicine:
+      metabolismRate: 0.2
+      effects:
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentThreshold
+            min: 11
+        damage:
+          groups:
+            Airloss: -6
+            Toxin: -4
+            Brute: -4.5
+            Burn: -6
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          min: 11
+        key: ForcedSleep
+        component: ForcedSleeping
+        refresh: false
+        type: Add
+
+- type: reagent
+  id: Negacordrazine
+  name: Negacordrazine
+  group: Medicine
+  desc: A strange, completely reversed tricordrazine. Heals nearly all damage types above 30 Damage.
+  physicalDesc: reagent-physical-desc-translucent
+  flavor: medicine
+  color: "#d34b26" 
+  metabolisms:
+    Medicine:
+      metabolismRate: 0.2
+      effects:
+     - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          min: 30
+        damage:
+          groups:
+            Airloss: -2
+            Brute: -1.2
+            Burn: -1.6
+            Toxin: -2
+
+- type: reagent
+  id: StabilisedStimulants
+  name: Stabilised Stimulants
+  group: Narcotics
+  desc: You have zero clue what this is and how, but it really gets you going with no side effects. Besides the Addiction you already have after the rush.
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: bitter
+  color: "#e1e1e1"
+  metabolisms:
+    Narcotic:
+      metabolismRate: 0.2
+      effects:
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.35
+        sprintSpeedModifier: 1.35
+      - !type:GenericStatusEffect
+        key: Stun
+        time: 3
+        type: Remove
+      - !type:GenericStatusEffect
+        key: KnockedDown
+        time: 3
+        type: Remove
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Haloperidol
+          max: 0.01
+        key: Drowsiness
+        time: 10
+        type: Remove
+
+- type: reagent
+  id: Revivopine
+  name: Revivopine
+  group: Medicine
+  desc: An extremely effective medicine for combat purposes of getting fellow combatants up quickly, but also very effective for medbay emergencies.
+  physicalDesc: reagent-physical-desc-exhilarating
+  flavor: medicine
+  color: "#04ea9a" 
+  metabolisms:
+    Medicine:
+      metabolismRate: 2.0
+      effects:
+     - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          min: 95 # Heals a bit above crit
+        damage:
+          groups: # 5 Damage every type except rad/pois
+            Airloss: -10
+            Brute: -15
+            Burn: -20
+
+- type: reagent
+  id: Corgium
+  name: Corgium
+  group: Special
+  desc: A strange chemical imbued with the power to create life when water's added, specifically the cutest! Do not imbib.
+  physicalDesc: reagent-physical-desc-fluffy
+  flavor: medicine
+  color: "#ffaa00"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:Polymorph
+        prototype: CorgiMorph # PERMANENT. There's a reason this chem's an exotic chem, not a low-mid level chem. Exotic's primary toxin.
+        conditions:
+          - !type:ReagentThreshold
+            min: 20
+
+# For new chems: Exotic should only be strong gimmick / strong inverted chems / Parts of said chems. inverted chems aren't in the game.
+# Except for Nega but that's generally middle strength chem, but a part of better chems [omni/ichor] and has a pretty strong use mixed w/ other chems.
