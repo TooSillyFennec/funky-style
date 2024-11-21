@@ -1,0 +1,77 @@
+- type: reagent
+  id: Heparin
+  name: Heparin
+  group: Toxins
+  desc: A Fast-Acting toxin that quickly opens wounds on a body, making them bleed rapidly. Can seep through skin but is less effective on skin.
+  physicalDesc: reagent-physical-desc-shiny
+  flavor: sharp
+  color: "#f9cab3"
+  metabolisms:
+    Acidic:
+      methods: [ Touch ]
+      metabolismRate: 2.0
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+             Bloodloss: 3
+      - !type:ModifyBleedAmount
+        amount: 4
+    Poison:
+      metabolismRate: 2.0
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+             Bloodloss: 4
+      - !type:ModifyBleedAmount
+        amount: 6
+
+- type: reagent
+  id: Rhigoxane # Reference to the old name for Hercuri on SS13, but directly a toxin.
+  name: Rhigoxane
+  group: Toxins
+  desc: That looks so cold and refreshing... don't take a sip, it's pretty warm... and you shall be cold as you thought it was if ingested.
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: antifreeze # warm
+  color: "#34b3c9"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cold: 1 # Chip Damage really, the chem already deals heavy damage from the cold effect
+      - !type:AdjustTemperature
+        amount: -25000 # About? a temp level down every 2 seconds pretty sure
+
+- type: reagent
+  id: Spewium # ipecac+
+  name: Spewium
+  group: Toxins
+  desc: Even smelling it warrants a vomit comet.
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: horrible
+  color: "#2e4404"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:ChemVomit
+        probability: 0.5
+
+- type: reagent
+  id: Pestiline # Horseman of the Apocalypse >:3
+  name: Pestiline
+  group: Toxins
+  desc: This exotic and strange toxin is rumored to be the essence of sickness itself.
+  flavor: punishment
+  color: "#cf3600"
+  physicalDesc: reagent-physical-desc-sickly
+  metabolisms:
+    Poison:
+      metabolismRate: 0.02 # 20 damage after 50 seconds
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Celluar: 0.4
