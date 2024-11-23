@@ -159,7 +159,7 @@
          conditions:
          - !type:ReagentThreshold
            min: 20
-        factor: -3
+         factor: -3
         
 - type: reagent
   id: Oxandrolone
