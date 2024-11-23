@@ -567,7 +567,7 @@
         min: 4
   metabolisms:
     Medicine:
-    metabolismRate: 0.4 # Funkychem
+      metabolismRate: 0.4 # Funkychem
       effects:
       - !type:HealthChange
         damage:
