@@ -397,7 +397,7 @@
       beaker:
         reagents:
         - ReagentId: Nitrogen
-         Quantity: 400 # Funky Station
+          Quantity: 400 # Funky Station
 
 - type: entity
   parent: Jug
