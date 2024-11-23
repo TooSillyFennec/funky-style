@@ -72,14 +72,14 @@
     Medicine:
       metabolismRate: 0.2
       effects:
-     - !type:HealthChange
+      - !type:HealthChange
         conditions:
         - !type:TotalDamage
           max: 30
         damage:
           groups:
             Brute: -0.6
-     - !type:HealthChange
+      - !type:HealthChange
         conditions:
         - !type:TotalDamage
           min: 30
