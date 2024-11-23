@@ -50,7 +50,7 @@
     Medicine:
       metabolismRate: 0.2
       effects:
-     - !type:HealthChange
+      - !type:HealthChange
         conditions:
         - !type:TotalDamage
           min: 30
