@@ -138,7 +138,7 @@
   color: "#634aef"
   metabolisms:
     Medicine:
-      metabolismRate:
+      metabolismRate: 0.2
       effects:
       - !type:HealthChange
         conditions:
