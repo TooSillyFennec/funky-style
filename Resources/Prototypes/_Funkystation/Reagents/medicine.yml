@@ -141,6 +141,7 @@
       metabolismRate:
       effects:
       - !type:HealthChange
+        conditions:
         - !type:ReagentThreshold
           max: 20
         damage:
