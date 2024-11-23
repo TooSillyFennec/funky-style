@@ -105,7 +105,7 @@
     Medicine:
       metabolismRate: 2.0
       effects:
-     - !type:HealthChange
+      - !type:HealthChange
         conditions:
         - !type:TotalDamage
           min: 95 # Heals a bit above crit
