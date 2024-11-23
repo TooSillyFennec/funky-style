@@ -58,7 +58,7 @@
 # Funkychem Addition [For Rad Kits]
 - type: entity
   parent: MedicalPatchPrefilledBase
-  id: MedicalPatchPrefilled
+  id: MedicalPatchPrefilledAntiRad
   name: anti-rad patch
   suffix: Arith/Podide
   components:
