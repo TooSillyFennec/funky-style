@@ -74,4 +74,4 @@
       - !type:HealthChange
         damage:
           types:
-            Celluar: 0.4
+            Genetic: 0.4
