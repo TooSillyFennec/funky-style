@@ -23,9 +23,9 @@
     singleUse: true
     transferAmount: 0.5 # Funkychem
 
-- type: entity
+- type: entity # Funkychem
   parent: MedicalPatchPrefilledBase
-  id: MedicalPatchPrefilledBicaridine # Funkychem - Same name kept to spare me effort [lol]
+  id: MedicalPatchPrefilledLibital
   name: brute patch
   suffix: Libital
   components:
@@ -39,9 +39,9 @@
           - ReagentId: Libital
             Quantity: 30
 
-- type: entity
+- type: entity # Funkychem
   parent: MedicalPatchPrefilledBase
-  id: MedicalPatchPrefilledDermaline # Same as Libital - Funkychem
+  id: MedicalPatchPrefilledAiuri
   name: burn patch
   suffix: Aiuri
   components:
@@ -52,7 +52,7 @@
       drink:
         maxVol: 30
         reagents:
-          - ReagentId: Dermaline
+          - ReagentId: Aiuri
             Quantity: 30
 
 # Funkychem Addition [For Rad Kits]
