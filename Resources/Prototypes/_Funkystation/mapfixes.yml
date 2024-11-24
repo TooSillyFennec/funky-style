@@ -163,3 +163,83 @@
         reagents:
         - ReagentId: Aiuri
           Quantity: 15
+
+- type: entity # Divide grrrr
+  parent: MedicalPatchPrefilledBase
+  id: MedicalPatchPrefilledBicaridine
+  name: brute patch
+  suffix: mapfix
+  components:
+  - type: Label
+    currentLabel: Libital 30u
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+          - ReagentId: Libital
+            Quantity: 30
+
+- type: entity
+  parent: MedicalPatchPrefilledBase
+  id: MedicalPatchPrefilledDermaline
+  name: burn patch
+  suffix: mapfix
+  components:
+  - type: Label
+    currentLabel: Aiuri 30u
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+          - ReagentId: Aiuri
+            Quantity: 30
+
+- type: entity # Fucking oasis.
+  id: CigaretteDylovene
+  parent: SoakedCigarette
+  name: Lacking Liver Damage
+  suffix: mapfix
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 40
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: Multiver
+            Quantity: 10
+
+- type: entity
+  id: CigarettDermaline
+  parent: SoakedCigarette
+  name: Does Not Meet Expectations 
+  suffix: mapfix
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 40
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: Aiuri
+            Quantity: 10
+
+- type: entity
+  id: CigaretteBicaridine
+  parent: SoakedCigarette
+  name: Wet Dog Enhanced Cigarette
+  suffix: mapfix
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 40
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: SalicylicAcid
+            Quantity: 10
