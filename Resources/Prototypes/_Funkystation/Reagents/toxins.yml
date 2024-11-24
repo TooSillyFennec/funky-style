@@ -7,16 +7,6 @@
   flavor: sharp
   color: "#f9cab3"
   reactiveEffects:
-    Acidic:
-      methods: [ Touch ]
-      metabolismRate: 2.0
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-             Bloodloss: 3
-      - !type:ModifyBleedAmount
-        amount: 4
   metabolisms:
     Poison:
       metabolismRate: 2.0
