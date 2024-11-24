@@ -126,7 +126,7 @@
     groups:
       Acidic: [ Touch ]
     reactions: # Funkychem
-    - reagents: [ Multiver, PenteticAcid, Diphenhydramine, Arithrazine, Probital, Libital, SalicylicAcid, Lenturi, Oxandrolone, Dexalin, Salbutamol, Convermol, Tricordrazine, Leporazine, Bruizine, Lacerinol, Puncturase, Pyrazine, Insuzine, Kelotane, Hyronalin, Inaprovaline, Epinephrine ]
+    - reagents: [ Multiver, PenteticAcid, Diphenhydramine, Arithrazine, Probital, Libital, SalicylicAcid, Lenturi, Oxandrolone, Dexalin, Salbutamol, Convermol, Tricordrazine, Leporazine, Bruizine, Lacerinol, Puncturase, Pyrazine, Insuzine, Aiuri, Hyronalin, Inaprovaline, Epinephrine ]
       methods: [ Touch ]
       effects:
       - !type:ActivateArtifact
