@@ -1246,7 +1246,7 @@
         damage:
           types:
             Heat: -5.0
-            Shock: -5.0
+            Shock: -3.0
             Caustic: -1.0
 
 - type: reagent
