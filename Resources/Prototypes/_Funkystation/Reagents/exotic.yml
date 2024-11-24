@@ -1,6 +1,6 @@
 - type: reagent
   id: ExoticReagent # The base chem for the top-level chem tree, + other reactions.
-  name: Exotic Reagent
+  name: reagent-name-exoticreagent
   group: Special
   desc: reagent-desc-exoticreagent
   physicalDesc: reagent-physical-desc-exotic-smelling
@@ -9,7 +9,7 @@
 
 - type: reagent
   id: Stasicillin
-  name: Stasicillin
+  name: reagent-name-stasicillin
   group: Medicine
   desc: reagent-desc-stasicillin
   physicalDesc: reagent-physical-desc-crystalline
@@ -40,7 +40,7 @@
 
 - type: reagent
   id: Negacordrazine
-  name: Negacordrazine
+  name: reagent-name-negacordrazine
   group: Medicine
   desc: reagent-desc-negacordrazine
   physicalDesc: reagent-physical-desc-translucent
@@ -63,7 +63,7 @@
 
 - type: reagent
   id: StabilisedStimulants
-  name: Stabilised Stimulants
+  name: reagent-name-stabilisedstimulants
   group: Narcotics
   desc: reagent-desc-stabilisedstimulants
   physicalDesc: reagent-physical-desc-opaque
@@ -95,7 +95,7 @@
 
 - type: reagent
   id: Revivopine
-  name: Revivopine
+  name: reagent-name-revivopine
   group: Medicine
   desc: reagent-desc-revivopine
   physicalDesc: reagent-physical-desc-exhilarating
@@ -117,7 +117,7 @@
 
 - type: reagent
   id: Corgium
-  name: Corgium
+  name: reagent-name-corgium
   group: Special
   desc: reagent-desc-corgium
   physicalDesc: reagent-physical-desc-fluffy
