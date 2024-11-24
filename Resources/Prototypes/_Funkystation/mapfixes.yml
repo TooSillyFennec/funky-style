@@ -90,9 +90,9 @@
 
 - type: entity
   name: pill canister
-  parent: mapfix
+  parent: PillCanister
   id: PillCanisterDermaline
-  suffix: Lenturi 15u
+  suffix: mapfix
   components:
   - type: Label
     currentLabel: lenturi 15u
