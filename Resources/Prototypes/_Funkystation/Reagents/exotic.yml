@@ -2,7 +2,7 @@
   id: ExoticReagent # The base chem for the top-level chem tree, + other reactions.
   name: Exotic Reagent
   group: Special
-  desc: You've never even heard of it before, unless you are a chemist. Then, it's secrets are in your hands, and it's time to use the true power of chemistry.
+  desc: reagent-desc-exoticreagent
   physicalDesc: reagent-physical-desc-exotic-smelling
   flavor: nothing
   color: "#d111fc"
@@ -11,7 +11,7 @@
   id: Stasicillin
   name: Stasicillin
   group: Medicine
-  desc: A very rare chemical used by both top-level medbays and nanotrasen secret agents for both the effective injury treatment and it's side effect, sending the consumer to sleep.
+  desc: reagent-desc-stasicillin
   physicalDesc: reagent-physical-desc-crystalline
   flavor: medicine
   color: "#5c11fc"
@@ -42,7 +42,7 @@
   id: Negacordrazine
   name: Negacordrazine
   group: Medicine
-  desc: A strange, completely reversed tricordrazine. Heals nearly all damage types above 30 Damage.
+  desc: reagent-desc-negacordrazine
   physicalDesc: reagent-physical-desc-translucent
   flavor: medicine
   color: "#d34b26" 
@@ -65,7 +65,7 @@
   id: StabilisedStimulants
   name: Stabilised Stimulants
   group: Narcotics
-  desc: You have zero clue what this is and how, but it really gets you going with no side effects. Besides the Addiction you already have after the rush.
+  desc: reagent-desc-stabilisedstimulants
   physicalDesc: reagent-physical-desc-opaque
   flavor: bitter
   color: "#e1e1e1"
@@ -97,7 +97,7 @@
   id: Revivopine
   name: Revivopine
   group: Medicine
-  desc: An extremely effective medicine for combat purposes of getting fellow combatants up quickly, but also very effective for medbay emergencies.
+  desc: reagent-desc-revivopine
   physicalDesc: reagent-physical-desc-exhilarating
   flavor: medicine
   color: "#04ea9a" 
@@ -119,7 +119,7 @@
   id: Corgium
   name: Corgium
   group: Special
-  desc: A strange chemical imbued with the power to create life when water's added, specifically the cutest! Do not imbib.
+  desc: reagent-desc-corgium
   physicalDesc: reagent-physical-desc-fluffy
   flavor: medicine
   color: "#ffaa00"
