@@ -6,8 +6,8 @@
   physicalDesc: reagent-physical-desc-shiny
   flavor: sharp
   color: "#f9cab3"
-  metabolisms:
-    Acid:
+  reactiveEffects:
+    Acidic:
       methods: [ Touch ]
       metabolismRate: 2.0
       effects:
@@ -17,6 +17,7 @@
              Bloodloss: 3
       - !type:ModifyBleedAmount
         amount: 4
+  metabolisms:
     Poison:
       metabolismRate: 2.0
       effects:
