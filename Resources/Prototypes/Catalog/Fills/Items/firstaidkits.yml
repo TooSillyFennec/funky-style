@@ -50,7 +50,7 @@
       - id: SyringeEthylredoxrazine
       - id: AntiPoisonMedipen
         amount: 2 # Funkychem
-      - id: PillCanisterDylovene
+      - id: PillCanisterMultiver
       - id: PillCanisterCharcoal
 
 - type: entity
