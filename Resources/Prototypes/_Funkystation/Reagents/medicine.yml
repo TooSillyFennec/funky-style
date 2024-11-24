@@ -2,7 +2,7 @@
   id: Libital
   name: Libital
   group: Medicine
-  desc: A Common, but weak medicine used to heal brute trauma. Commonly added to other medicine due to it's low side effects.
+  desc: reagent-desc-libital
   physicalDesc: reagent-physical-desc-opaque
   flavor: medicine
   color: "#e8d199"
@@ -30,7 +30,7 @@
   id: Probital
   name: Probital
   group: Medicine
-  desc: An analgesic which is effective at treating general brute trauma. It's useful for all types of beatings. Known to make movement slower. 
+  desc: reagent-desc-probital
   physicalDesc: reagent-physical-desc-syrupy
   flavor: medicine
   color: "#e8e699"
@@ -64,7 +64,7 @@
   id: SalicylicAcid
   name: Salicylic Acid
   group: Medicine
-  desc: A heavy-duty analgesic that stabilizes the severely beaten, but is barely effective on people with less wounds. Overdosing will reverse the effect however.
+  desc: reagent-desc-salicylicacid
   physicalDesc: reagent-physical-desc-mucus-like
   flavor: medicine
   color: "#f9e0e9" 
@@ -102,7 +102,7 @@
   id: Aiuri
   name: Aiuri
   group: Medicine
-  desc: A Common, but weak medicine used to heal brute injuries. Commonly added to other medicine due to it's low side effects.
+  desc: reagent-desc-aiuri
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: medicine
   color: "#a69ff4"
@@ -132,7 +132,7 @@
   id: Lenturi
   name: Lenturi
   group: Medicine
-  desc: A chemical that is effective at treating burn damage, but uses water inside your body, thus dehydrating you.
+  desc: reagent-desc-lenturi
   physicalDesc: reagent-physical-desc-tropical # A Pun :3
   flavor: medicine
   color: "#634aef"
@@ -165,7 +165,7 @@
   id: Oxandrolone
   name: Oxandrolone
   group: Medicine
-  desc: A heavy-duty chemical that stabilizes the severely burned, but is barely effective on people with less wounds. Overdosing will reverse the effect however.
+  desc: reagent-desc-oxandrolone
   physicalDesc: reagent-physical-desc-translucent
   flavor: medicine
   color: "#e6e600" 
@@ -207,7 +207,7 @@
   id: Salbutamol
   name: Salbutamol
   group: Medicine
-  desc: A heavy-duty chemical that stabilizes the suffocated and reverses the effect of bloodloss, but is ineffective on people with less wounds. Overdosing will reverse the effect however.
+  desc: reagent-desc-salbutamol
   physicalDesc: reagent-physical-desc-cloudy
   flavor: medicine
   color: "#99ffff"
@@ -241,7 +241,7 @@
   id: Convermol
   name: Convermol
   group: Medicine
-  desc: A Fast-Acting asphyxiation medicine that has the side effect of putting heavy strain on the body, dose carefully.
+  desc: reagent-desc-convermol
   physicalDesc: reagent-physical-desc-abrasive
   flavor: medicine
   color: "#e80d7e"
@@ -260,7 +260,7 @@
   id: Multiver
   name: Multiver
   group: Medicine
-  desc: A Common antitoxin used to treat poison. Cannot purge toxins compared to Pentetic Acid.
+  desc: reagent-desc-multiver
   physicalDesc: reagent-physical-desc-grainy
   flavor: medicine
   color: "#36274f"
@@ -288,7 +288,7 @@
   id: PenteticAcid
   name: Pentetic Acid
   group: Medicine
-  desc:  A complicated anti-toxin solution that quickly flushes out toxins and heals the damage left behind. Overdose causes extreme pain.
+  desc:  reagent-desc-penteticacid
   physicalDesc: reagent-physical-desc-acidic
   flavor: medicine
   color: "#3a0c28"
@@ -321,7 +321,7 @@
   id: Granibitulari
   name: Granibitulari
   group: Medicine
-  desc: A Commonly sold medicine for all types of injuries, but extremely slow acting.
+  desc: reagent-desc-granibitulari
   physicalDesc: reagent-physical-desc-gloopy
   flavor: medicine
   color: "#c7e4e8"
