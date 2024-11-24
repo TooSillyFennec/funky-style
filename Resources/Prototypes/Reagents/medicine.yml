@@ -247,7 +247,7 @@
   id: Dexalin
   name: reagent-name-dexalin
   group: Medicine
-  desc: Used for treating oxygen deprivation and bloodloss. Myths of a "Dexalin Plus" are false. # Funky - i'm lazy, fuck .ftl
+  desc: reagent-desc-dexalin # Funkychem
   physicalDesc: reagent-physical-desc-opaque
   flavor: medicine
   color: "#0041a8"
