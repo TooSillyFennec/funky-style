@@ -32,7 +32,7 @@ reagent-name-granibitulari = Granibitulari
 reagent-desc-granibitulari = A Commonly sold medicine for all types of injuries, but extremely slow acting.
 
 reagent-name-heparin = Heparin
-reagent-desc-heparin = A Fast-Acting toxin that quickly opens wounds on a body, making them bleed rapidly. Can seep through skin but is less effective on skin.
+reagent-desc-heparin = A Fast-Acting toxin that quickly opens wounds on a body, making them bleed rapidly. 
 
 reagent-name-rhigoxane = Rhigoxane
 reagent-desc-rhigoxane = That looks so cold and refreshing... don't take a sip, it's pretty warm... and you shall be cold as you thought it was if ingested.
