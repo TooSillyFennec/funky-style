@@ -2,12 +2,12 @@
   id: Heparin
   name: Heparin
   group: Toxins
-  desc: A Fast-Acting toxin that quickly opens wounds on a body, making them bleed rapidly. Can seep through skin but is less effective on skin.
+  desc: reagent-desc-heparin
   physicalDesc: reagent-physical-desc-shiny
   flavor: sharp
   color: "#f9cab3"
   metabolisms:
-    Acidic:
+    Acid:
       methods: [ Touch ]
       metabolismRate: 2.0
       effects:
@@ -31,7 +31,7 @@
   id: Rhigoxane # Reference to the old name for Hercuri on SS13, but directly a toxin.
   name: Rhigoxane
   group: Toxins
-  desc: That looks so cold and refreshing... don't take a sip, it's pretty warm... and you shall be cold as you thought it was if ingested.
+  desc: reagent-desc-rhigoxane
   physicalDesc: reagent-physical-desc-refreshing
   flavor: antifreeze # warm
   color: "#34b3c9"
@@ -49,7 +49,7 @@
   id: Spewium # ipecac+
   name: Spewium
   group: Toxins
-  desc: Even smelling it warrants a vomit comet.
+  desc: reagent-desc-spewium
   physicalDesc: reagent-physical-desc-overpowering
   flavor: horrible
   color: "#2e4404"
@@ -63,7 +63,7 @@
   id: Pestiline # Horseman of the Apocalypse >:3
   name: Pestiline
   group: Toxins
-  desc: This exotic and strange toxin is rumored to be the essence of sickness itself.
+  desc: reagent-desc-pestiline
   flavor: punishment
   color: "#cf3600"
   physicalDesc: reagent-physical-desc-sickly
