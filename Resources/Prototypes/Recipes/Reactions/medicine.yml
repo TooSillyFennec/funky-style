@@ -449,7 +449,7 @@
   id: SalyLacerinol # Funky Chem Expansion - Mix 2 Brute dvanced Meds, Get Razor. All Razor Recipes below.
   impact: Medium
   reactants:
-    Lacinerol:
+    Lacerinol:
       amount: 1
     SalicylicAcid:
       amount: 1
