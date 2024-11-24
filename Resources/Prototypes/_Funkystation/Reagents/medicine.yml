@@ -1,6 +1,6 @@
 - type: reagent
   id: Libital
-  name: Libital
+  name: reagent-name-libital
   group: Medicine
   desc: reagent-desc-libital
   physicalDesc: reagent-physical-desc-opaque
@@ -28,7 +28,7 @@
           
 - type: reagent
   id: Probital
-  name: Probital
+  name: reagent-name-probital
   group: Medicine
   desc: reagent-desc-probital
   physicalDesc: reagent-physical-desc-syrupy
@@ -62,7 +62,7 @@
 
 - type: reagent
   id: SalicylicAcid
-  name: Salicylic Acid
+  name: reagent-name-salicylicacid
   group: Medicine
   desc: reagent-desc-salicylicacid
   physicalDesc: reagent-physical-desc-mucus-like
@@ -100,7 +100,7 @@
           
 - type: reagent
   id: Aiuri
-  name: Aiuri
+  name: reagent-name-aiuri
   group: Medicine
   desc: reagent-desc-aiuri
   physicalDesc: reagent-physical-desc-strong-smelling
@@ -130,7 +130,7 @@
           
 - type: reagent
   id: Lenturi
-  name: Lenturi
+  name: reagent-name-lenturi
   group: Medicine
   desc: reagent-desc-lenturi
   physicalDesc: reagent-physical-desc-tropical # A Pun :3
@@ -163,7 +163,7 @@
         
 - type: reagent
   id: Oxandrolone
-  name: Oxandrolone
+  name: reagent-name-oxandrolone
   group: Medicine
   desc: reagent-desc-oxandrolone
   physicalDesc: reagent-physical-desc-translucent
@@ -205,7 +205,7 @@
           
 - type: reagent
   id: Salbutamol
-  name: Salbutamol
+  name: reagent-name-salbutamol
   group: Medicine
   desc: reagent-desc-salbutamol
   physicalDesc: reagent-physical-desc-cloudy
@@ -239,7 +239,7 @@
           
 - type: reagent
   id: Convermol
-  name: Convermol
+  name: reagent-name-convermol
   group: Medicine
   desc: reagent-desc-convermol
   physicalDesc: reagent-physical-desc-abrasive
@@ -258,7 +258,7 @@
           
 - type: reagent
   id: Multiver
-  name: Multiver
+  name: reagent-name-multiver
   group: Medicine
   desc: reagent-desc-multiver
   physicalDesc: reagent-physical-desc-grainy
@@ -286,7 +286,7 @@
           
 - type: reagent
   id: PenteticAcid
-  name: Pentetic Acid
+  name: reagent-name-penteticacid
   group: Medicine
   desc:  reagent-desc-penteticacid
   physicalDesc: reagent-physical-desc-acidic
@@ -319,7 +319,7 @@
         
 - type: reagent
   id: Granibitulari
-  name: Granibitulari
+  name: reagent-name-granibitulari
   group: Medicine
   desc: reagent-desc-granibitulari
   physicalDesc: reagent-physical-desc-gloopy
